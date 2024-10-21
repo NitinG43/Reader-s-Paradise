@@ -31,22 +31,7 @@ This website is a personal book showcase that displays my book collection, revie
 - Integration with Open Library API for book cover images
 
 ## Setup and Installation
-1. Clone the repository:
-````bash
-git clone 
-````
-2. Install the dependencies:
-````bash
-npm install
-````
-3. Create a .env file in the rool of the project and add the following lines:
-````bash
-DATABASE_URL="postgresql://world_owner:E0TYLo2RWuUz@ep-delicate-queen-a1gxmygl.ap-southeast-1.aws.neon.tech/books_read?sslmode=require"
-PORT="3000"
-````
-5. Run the application:
-````bash
-node index.js
-````
-6. Usage:
-Visit http://localhost:3000 in your browser to start the quiz.
+1. Clone the repository.
+2. Install the dependencies.
+3. Create a .env file in the rool of the project and add the following lines.
+4. Run the application.
