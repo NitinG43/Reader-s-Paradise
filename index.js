@@ -89,7 +89,7 @@ async function readDetail(identity) {
 
 app.get("/",async (req,res)=>{
     const books = await readData();
-    res.render("index.ejs",{title:"Welcome to Nitin's Book Showcase!", isbn:books.isbn, genre:books.genre, name:books.name, author:books.author, rating:books.rating, localISBN:books.localISBN});
+    res.render("index.ejs",{title:"Welcome to Nitin Garg's Book Showcase!", isbn:books.isbn, genre:books.genre, name:books.name, author:books.author, rating:books.rating, localISBN:books.localISBN});
 });
 
 app.get("/rating", async (req,res) => {
